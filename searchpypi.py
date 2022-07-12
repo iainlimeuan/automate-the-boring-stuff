@@ -1,9 +1,3 @@
-#
-#
-#
-#
-#
-
 from re import L
 import sys, requests, webbrowser, bs4
 
@@ -20,7 +14,7 @@ numOpen = min(5, len(links))
 
 # Range starts at 0 by default.
 # Note that the 'href' attribute value in the returned elements do not
-# have the initial https://pypi.org part, so that part to be concatenated
+# have the initial https://pypi.org part, so that part has to be concatenated
 # to the href attribute value.
 
 for i in range(numOpen): 
